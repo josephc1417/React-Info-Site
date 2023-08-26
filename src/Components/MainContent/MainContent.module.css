@@ -1,0 +1,15 @@
+.container {
+  background-color: white;
+}
+
+ul {
+  /* Remove default bullets */
+  padding-left: 1.5rem; /* Add some space for the new custom bullets */
+}
+
+li::marker {
+  content: "•"; /* Replace with the bullet character you want */
+  color: #61dafb; /* Change the color to your desired color */
+  font-size: 1.2rem; /* Optional: Adjust the size of the bullet */
+  margin-right: 0.5rem; /* Optional: Add space between the bullet and content */
+}

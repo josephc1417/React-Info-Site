@@ -6,9 +6,4 @@
 /* General styles for the application that are separate from the components */
 body {
   background-color: gray;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }

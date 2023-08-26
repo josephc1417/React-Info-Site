@@ -13,21 +13,20 @@ nav {
   background-color: #21222a;
   height: 90px;
   padding: 30px 25px;
-  width: 550px;
 }
 
-nav > h3,
-nav > h4 {
+.nav--logo_text,
+.nav--title {
   margin: 0;
 }
-nav > h3 {
+.nav-logo_text {
   margin-right: auto;
   color: #61dafb;
   font-weight: 700;
   font-size: 22px;
 }
 
-nav > img {
+.nav--icon {
   color: #deebf8;
   font-weight: 600;
 }
