@@ -16,21 +16,21 @@ nav {
 }
 
 .nav--logo_text,
-.nav--title {
+.nav--project-text {
   margin: 0;
 }
-.nav-logo_text {
+.nav--logo-text {
   margin-right: auto;
   color: #61dafb;
   font-weight: 700;
   font-size: 22px;
 }
-
-.nav--icon {
+.nav--project-text {
   color: #deebf8;
   font-weight: 600;
 }
-nav > img {
+
+.nav--icon {
   height: 30px;
   margin-right: 7px;
 }
