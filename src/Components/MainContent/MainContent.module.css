@@ -1,5 +1,16 @@
-.container {
-  background-color: white;
+.main-container {
+  padding: 57px 27px;
+  color: white;
+  background-image: url(/src/assets/reactjs-icon\ 2.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 200px;
+}
+
+.main--title {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
 }
 
 ul {
@@ -7,9 +18,19 @@ ul {
   padding-left: 1.5rem; /* Add some space for the new custom bullets */
 }
 
-li::marker {
+.main--facts > li::marker {
   content: "•"; /* Replace with the bullet character you want */
   color: #61dafb; /* Change the color to your desired color */
-  font-size: 1.2rem; /* Optional: Adjust the size of the bullet */
+  font-size: 2.2rem; /* Optional: Adjust the size of the bullet */
   margin-right: 0.5rem; /* Optional: Add space between the bullet and content */
+}
+
+.main--facts {
+  margin-top: 46px;
+}
+.main--facts > li {
+  margin-top: 46px;
+  line-height: 19px;
+  padding-block: 10px;
+  font-size: 23px;
 }
